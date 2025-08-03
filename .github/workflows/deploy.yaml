@@ -25,7 +25,7 @@ jobs:
     
       - name: Build site
         env:
-          SITEURL: https://marverix.github.io
+          SITEURL: https://marek.sierocinscy.pl
         run: pelican -o _site
 
       - name: Setup Pages
