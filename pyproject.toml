@@ -7,5 +7,8 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.13.4",
     "lxml>=6.0.0",
+    "pelican-neighbors>=1.2.0",
+    "pelican-series>=3.0.0",
+    "pelican-sitemap>=1.2.1",
     "pelican[markdown]>=4.11.0",
 ]
