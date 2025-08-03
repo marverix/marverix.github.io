@@ -1,0 +1,11 @@
+
+# Wordpress Exports
+*.xml
+
+# Python
+__pycache__/
+.venv/
+
+# Output
+output/
+_site/
