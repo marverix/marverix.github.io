@@ -1714,7 +1714,8 @@ button,input,select,textarea {
     left: 0;
     width: 100%;
     z-index: 400;
-    transition: all ease-out 0.3s
+    transition: all ease-out 0.3s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
 }
 
 @media only screen and (max-width: 640px) {
@@ -3119,4 +3120,15 @@ button,input,select,textarea {
     .nav-meta li.nav-linkedin,.nav-meta li.nav-github {
         display:none
     }
+}
+
+.post-read-more {
+    margin-top: 2em;
+    font-size: 1.7em;
+    text-align: right;
+}
+
+.post-read-more a {
+    color: var(--color-primary);
+    text-decoration: none;
 }

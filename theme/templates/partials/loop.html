@@ -25,7 +25,10 @@
     <article class="post">
         <div class="inner">
             <div class="box post-box">
-                <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                <h2 class="post-title">
+                    <a href="{{ SITEURL }}/{{ article.url }}"
+                       rel="bookmark"
+                       title="Link do {{ article.title|striptags }}">{{ article.title }}</a>
                 </h2>
                 <span class="post-meta">
                     <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
@@ -65,6 +68,13 @@
                     {% endif %}
                 </div>
                 {% endif %}
+
+                <p class="post-read-more">
+                    <a href="{{ SITEURL }}/{{ article.url }}"
+                        rel="bookmark"
+                        title="Czytaj dalej {{ article.title|striptags }}">Czytaj dalej »</a>
+                </p>
+
             </div>
         </div>
     </article>
